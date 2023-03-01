@@ -1,0 +1,34 @@
+.time__line h6 span {
+    background: #7c8a97;
+    color: rgba(255, 255, 255, 0.481);
+    border-radius: 50%;
+    padding: 5px 12px;
+    text-align: center;
+    margin-left: 5px;
+    pointer-events: none;
+}
+
+.time__line h6 {
+    color: #7c8a97;
+    cursor: pointer;
+    position: relative;
+    z-index: 201;
+}
+
+.active {
+    background: #000000 !important;
+    color: #fff !important;
+}
+
+.active2 {
+    color: #000000 !important;
+}
+
+@media only screen and (max-width: 991px) {
+    .time__line h6 {
+        font-size: 1rem !important;
+    }
+    .time__line h6 span {
+        padding: 3px 9px;
+    }
+}
